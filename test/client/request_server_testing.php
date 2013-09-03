@@ -20,7 +20,7 @@
 
     // ############################################
 
-    // send request
+    // send request  //commentaire 2
     $response = (new JsonRpcCurl())
         ->setUrl($urlServiceGateway . '/api/web/')
         ->setId(1)
