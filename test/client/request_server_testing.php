@@ -21,7 +21,7 @@
     // ############################################
 
     // send request  //commentaire 2
-    $response = (new JsonRpcCurl())
+    $response = (new JsonRpcCurl()) //commentaire 3
         ->setUrl($urlServiceGateway . '/api/web/')
         ->setId(1)
         ->setMethod('Web.Base.getUsernameById')
