@@ -16,7 +16,7 @@
 
     // dump response
     echo '<h1>Response for "Web.Base.hello":</h1>';
-    var_dump($response); // prints: Hello!
+    var_dump($response); // prints: Hello!  //affichage hello
 
     // ############################################
 
